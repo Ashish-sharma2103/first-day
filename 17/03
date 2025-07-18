@@ -1,0 +1,5 @@
+def display(*args):
+  for arg in args:
+      print(arg)
+display("Python", 123, True, 5.6)
+
