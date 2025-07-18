@@ -1,0 +1,4 @@
+def student_info(**kwargs):
+  for key, value in kwargs.items():
+       print(f"{key}: {value}")
+student_info(name="Ashish", age=21, roll_number=413)
